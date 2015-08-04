@@ -1,0 +1,30 @@
+{
+  "name": "DualListBox",
+  "description": "jQuery DualListBox plugin with Bootstrap styling",
+  "version": "1.0.1",
+  "homepage": "https://github.com/CashStar/DualListBox",
+  "main": [
+    "dist/bootstrap-treeview.min.js",
+    "dist/bootstrap-treeview.min.css"
+  ],
+  "keywords": [
+    "dual-list-box",
+    "bootstrap",
+    "form",
+    "javascript",
+    "jquery",
+    "jquery-plugin"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": ">= 1.9.0",
+    "bootstrap": ">= 3.0.0"
+  },
+  "devDependencies": {}
+}

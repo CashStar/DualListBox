@@ -1,7 +1,7 @@
 {
   "name": "DualListBox",
   "description": "jQuery DualListBox plugin with Bootstrap styling",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "homepage": "https://github.com/CashStar/DualListBox",
   "main": [
     "dist/dual-list-box.js"

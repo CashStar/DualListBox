@@ -4,8 +4,7 @@
   "version": "1.0.1",
   "homepage": "https://github.com/CashStar/DualListBox",
   "main": [
-    "dist/bootstrap-treeview.min.js",
-    "dist/bootstrap-treeview.min.css"
+    "dist/dual-list-box.js",
   ],
   "keywords": [
     "dual-list-box",

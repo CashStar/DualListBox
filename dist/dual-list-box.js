@@ -167,6 +167,14 @@
         addListeners(options);
     }
 
+    $.fn.refreshDualListBox = function(parentElement, timeout) {
+        var unselected = $(parentElement + ' .unselected');
+        var selected = $(parentElement + ' .selected');
+        unselected.filterByText($(parentElement + ' .filter-unselected'), timeout || 500, parentElement).scrollTop(0).sortOptions();
+        selected.filterByText($(parentElement + ' .filter-selected'), timeout || 500, parentElement).scrollTop(0).sortOptions();
+        countElements(parentElement);
+    }
+
     /** Counts the elements per list box/select and shows it. */
     function countElements(parentElement) {
         var countUnselected = 0, countSelected = 0;
